@@ -366,6 +366,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-cn',
   title: 'TypeScript中文手册',
   description: 'TS中文手册',
+  base: '/typescript-zh-cn/',
 
   // theme: path.resolve(__dirname, './theme'),
 
