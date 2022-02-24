@@ -1,10 +1,3 @@
----
-title: TypeScript新手指南
-short: TS新手指南
-permalink: /zh/docs/handbook/typescript-from-scratch.html
-oneline: Learn TypeScript from scratch
----
-
 # TypeScript新手指南
 
 恭喜您选择 TypeScript 作为您的首选语言之一——您已经做出了正确的决定！

@@ -4,6 +4,7 @@ import type { DefaultThemeOptions } from 'vuepress'
 
 import path from 'path'
 
+// 原文档目录: https://www.typescriptlang.org/docs/
 const navbar = [
   {
     text: '指南',
@@ -13,23 +14,23 @@ const navbar = [
         children: [
           {
             text: '新手指南',
-            link: '/zh/docs/handbook/typescript-from-scratch.html',
+            link: '/get-started/ts-for-the-new-programmers',
           },
           {
             text: 'JavaScript开发者',
-            link: '/zh/docs/handbook/typescript-in-5-minutes.html',
+            link: '/get-started/ts-for-js-programmers',
           },
           {
             text: 'Java/C 开发者',
-            link: '/zh/docs/handbook/typescript-in-5-minutes-oop.html',
+            link: '/get-started/ts-for-oopers',
           },
-          {
-            text: '函数式开发者',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: '函数式开发者',
+          //   link: '',
+          // },
           {
             text: '5分钟上手',
-            link: '/zh/docs_',
+            link: '/tutorials/typescript-in-5-minutes',
           },
         ],
       },
@@ -38,49 +39,49 @@ const navbar = [
         children: [
           {
             text: 'ASP.NET Core',
-            link: '/zh/docs_',
+            link: '/tutorials/asp.net-core',
           },
           {
             text: 'Gulp',
-            link: '/zh/docs_',
+            link: '/tutorials/gulp',
           },
-          {
-            text: 'DOM Manipulation',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: 'DOM Manipulation',
+          //   link: '/tutorials/',
+          // },
           {
             text: 'Migrating from JavaScript',
-            link: '/zh/docs_',
+            link: '/tutorials/migrating-from-javascript',
           },
-          {
-            text: 'Using Babel with TypeScript',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: 'Using Babel with TypeScript',
+          //   link: '/tutorials/',
+          // },
         ],
       },
       {
         text: 'JS中支持TS的工具',
         children: [
-          {
-            text: 'JS Projects Utilizing TypeScript',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: 'JS Projects Utilizing TypeScript',
+          //   link: '',
+          // },
           {
             text: 'Type Checking JavaScript Files',
-            link: '/zh/docs_',
+            link: '/javascript/type-checking-javascript-files',
           },
-          {
-            text: 'DOM Manipulation',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'JSDoc Reference',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'Creating .d.ts Files from .js files',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: 'DOM Manipulation',
+          //   link: '',
+          // },
+          // {
+          //   text: 'JSDoc Reference',
+          //   link: '',
+          // },
+          // {
+          //   text: 'Creating .d.ts Files from .js files',
+          //   link: '',
+          // },
         ],
       },
     ]
@@ -90,137 +91,274 @@ const navbar = [
     children: [
       {
         text: '什么是tsconfig.json',
-        link: '/zh/docs_',
+        link: '/project-config/tsconfig.json',
       },
       {
         text: 'MSBuild中的编译器选项',
-        link: '/zh/docs_',
+        link: '/project-config/compiler-options-in-msbuild',
       },
       {
-        text: 'TSConfig参考',
-        link: '/zh/docs_',
+        text: 'compiler选项',
+        link: '/project-config/compiler-options',
       },
-      {
-        text: 'tsc选项',
-        link: '/zh/docs_',
-      },
-      {
-        text: '项目参考',
-        link: '/zh/docs_',
-      },
+      // {
+      //   text: 'tsc选项',
+      //   link: '',
+      // },
+      // {
+      //   text: '项目参考',
+      //   link: '',
+      // },
       {
         text: '与构建工具集成',
-        link: '/zh/docs_',
+        link: '/project-config/integrating-with-build-tools'
       },
       {
         text: '监听器配置',
-        link: '/zh/docs_',
+        link: '/project-config/configuring-watch',
       },
       {
         text: '每日构建',
-        link: '/zh/docs_',
+        link: '/project-config/nightly-builds',
       },
     ],
   },
   {
-    text: 'TS手册',
+    text: 'TS手册v2',
     children: [
-      {
-        text: '关于手册',
-        link: '/zh/docs_',
-      },
-      {
-        text: '基础知识',
-        link: '/zh/docs_',
-      },
-      {
-        text: '日常类型',
-        link: '/zh/docs_',
-      },
-      {
-        text: '类型收缩',
-        link: '/zh/docs_',
-      },
-      {
-        text: '更多关于函数的信息',
-        link: '/zh/docs_',
-      },
-      {
-        text: '对象类型',
-        link: '/zh/docs_',
-      },
+      // {
+      //   text: '关于手册',
+      //   link: '',
+      // },
+      // {
+      //   text: '基础知识',
+      //   link: '',
+      // },
+      // {
+      //   text: '日常类型',
+      //   link: '',
+      // },
+      // {
+      //   text: '类型收缩',
+      //   link: '',
+      // },
+      // {
+      //   text: '更多关于函数的信息',
+      //   link: '',
+      // },
+      // {
+      //   text: '对象类型',
+      //   link: '',
+      // },
       {
         text: '类型操作',
         children: [
-          {
-            text: '从类型创建类型',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: '从类型创建类型',
+          //   link: '',
+          // },
           {
             text: '泛型',
-            link: '/zh/docs_',
+            link: '/handbook/generics',
           },
-          {
-            text: '从类型创建类型',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'Keyof Type Operator',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'Typeof Type Operator',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'Indexed Access Types',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'Conditional Types',
-            link: '/zh/docs_',
-          },
-          {
-            text: 'Mapped Types',
-            link: '/zh/docs_',
-          },
+          // {
+          //   text: '从类型创建类型',
+          //   link: '',
+          // },
+          // {
+          //   text: 'Keyof Type Operator',
+          //   link: '',
+          // },
+          // {
+          //   text: 'Typeof Type Operator',
+          //   link: '',
+          // },
+          // {
+          //   text: 'Indexed Access Types',
+          //   link: '',
+          // },
+          // {
+          //   text: 'Conditional Types',
+          //   link: '',
+          // },
+          // {
+          //   text: 'Mapped Types',
+          //   link: '',
+          // },
           {
             text: 'Template Literal Types',
-            link: '/zh/docs_',
+            link: '/handbook-v2/type-manipulation/template-literal-types',
           },
         ],
       },
       {
         text: 'Classes',
-        link: '/zh/docs_',
+        link: '/handbook/classes',
       },
-      {
-        text: 'Modules',
-        link: '/zh/docs_',
-      }
+      // {
+      //   text: 'Modules',
+      //   link: '',
+      // }
     ],
   },
   {
     text: 'Reference',
     children: [
-      { text: 'Utility Types', link: 'zh.docs' },
-      { text: 'Cheat Sheets', link: 'zh.docs' },
-      { text: 'Decorators', link: 'zh.docs' },
-      { text: 'Declaration Merging', link: 'zh.docs' },
-      { text: 'Enums', link: 'zh.docs' },
-      { text: 'Iterators and Generators', link: 'zh.docs' },
-      { text: 'JSX', link: 'zh.docs' },
-      { text: 'Mixins', link: 'zh.docs' },
-      { text: 'Modules', link: 'zh.docs' },
-      { text: 'Module Resolution', link: 'zh.docs' },
-      { text: 'Namespaces', link: 'zh.docs' },
-      { text: 'Namespaces and Modules', link: 'zh.docs' },
-      { text: 'Symbols', link: 'zh.docs' },
-      { text: 'Triple-Slash Directives', link: 'zh.docs' },
-      { text: 'Type Compatibility', link: 'zh.docs' },
-      { text: 'Type Inference', link: 'zh.docs' },
-      { text: 'Variable Declaration', link: 'zh.docs' },
+      { text: 'Utility Types', link: '/reference/utility-types' },
+      // { text: 'Cheat Sheets', link: '/reference/' },
+      { text: 'Decorators', link: '/reference/decorators' },
+      { text: 'Declaration Merging', link: '/reference/declaration-merging' },
+      { text: 'Enums', link: '/handbook/enums' },
+      { text: 'Iterators and Generators', link: '/reference/iterators-and-generators' },
+      { text: 'JSX', link: '/reference/jsx' },
+      { text: 'Mixins', link: '/reference/mixins' },
+      { text: 'Modules', link: '/reference/modules' },
+      { text: 'Module Resolution', link: '/reference/module-resolution' },
+      { text: 'Namespaces', link: '/reference/namespaces.html' },
+      { text: 'Namespaces and Modules', link: '/reference/namespaces-and-modules' },
+      { text: 'Symbols', link: '/reference/symbols' },
+      { text: 'Triple-Slash Directives', link: '/reference/triple-slash-directives' },
+      { text: 'Type Compatibility', link: '/reference/type-compatibility' },
+      { text: 'Type Inference', link: '/reference/type-inference' },
+      { text: 'Variable Declaration', link: '/reference/variable-declarations' },
     ],
+  },
+  {
+    text: '发布记录',
+    children: [
+      {
+        "text": "typescript-4.5",
+        "link": "/release-notes/typescript-4.5"
+      },
+      {
+        "text": "typescript-4.4",
+        "link": "/release-notes/typescript-4.4"
+      },
+      {
+        "text": "typescript-4.3",
+        "link": "/release-notes/typescript-4.3"
+      },
+      {
+        "text": "typescript-4.2",
+        "link": "/release-notes/typescript-4.2"
+      },
+      {
+        "text": "typescript-4.1",
+        "link": "/release-notes/typescript-4.1"
+      },
+      {
+        "text": "typescript-4.0",
+        "link": "/release-notes/typescript-4.0"
+      },
+      {
+        "text": "typescript-3.9",
+        "link": "/release-notes/typescript-3.9"
+      },
+      {
+        "text": "typescript-3.8",
+        "link": "/release-notes/typescript-3.8"
+      },
+      {
+        "text": "typescript-3.7",
+        "link": "/release-notes/typescript-3.7"
+      },
+      {
+        "text": "typescript-3.6",
+        "link": "/release-notes/typescript-3.6"
+      },
+      {
+        "text": "typescript-3.5",
+        "link": "/release-notes/typescript-3.5"
+      },
+      {
+        "text": "typescript-3.4",
+        "link": "/release-notes/typescript-3.4"
+      },
+      {
+        "text": "typescript-3.3",
+        "link": "/release-notes/typescript-3.3"
+      },
+      {
+        "text": "typescript-3.2",
+        "link": "/release-notes/typescript-3.2"
+      },
+      {
+        "text": "typescript-3.1",
+        "link": "/release-notes/typescript-3.1"
+      },
+      {
+        "text": "typescript-3.0",
+        "link": "/release-notes/typescript-3.0"
+      },
+      {
+        "text": "typescript-2.9",
+        "link": "/release-notes/typescript-2.9"
+      },
+      {
+        "text": "typescript-2.8",
+        "link": "/release-notes/typescript-2.8"
+      },
+      {
+        "text": "typescript-2.7",
+        "link": "/release-notes/typescript-2.7"
+      },
+      {
+        "text": "typescript-2.6",
+        "link": "/release-notes/typescript-2.6"
+      },
+      {
+        "text": "typescript-2.5",
+        "link": "/release-notes/typescript-2.5"
+      },
+      {
+        "text": "typescript-2.4",
+        "link": "/release-notes/typescript-2.4"
+      },
+      {
+        "text": "typescript-2.3",
+        "link": "/release-notes/typescript-2.3"
+      },
+      {
+        "text": "typescript-2.2",
+        "link": "/release-notes/typescript-2.2"
+      },
+      {
+        "text": "typescript-2.1",
+        "link": "/release-notes/typescript-2.1"
+      },
+      {
+        "text": "typescript-2.0",
+        "link": "/release-notes/typescript-2.0"
+      },
+      {
+        "text": "typescript-1.8",
+        "link": "/release-notes/typescript-1.8"
+      },
+      {
+        "text": "typescript-1.7",
+        "link": "/release-notes/typescript-1.7"
+      },
+      {
+        "text": "typescript-1.6",
+        "link": "/release-notes/typescript-1.6"
+      },
+      {
+        "text": "typescript-1.5",
+        "link": "/release-notes/typescript-1.5"
+      },
+      {
+        "text": "typescript-1.4",
+        "link": "/release-notes/typescript-1.4"
+      },
+      {
+        "text": "typescript-1.3",
+        "link": "/release-notes/typescript-1.3"
+      },
+      {
+        "text": "typescript-1.1",
+        "link": "/release-notes/typescript-1.1"
+      }
+    ]
   },
 ]
 
@@ -248,11 +386,15 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: '/icon-512x512.png',
     navbar,
     darkMode: true,
-    repo: 'https://github.com/Mario34/typescript-handbook-zh-cn',
+    repo: 'https://github.com/Mario34/typescript-zh-cn',
     sidebarDepth: 3,
     editLink: true,
+    editLinkText: '编辑此页',
+    docsRepo: 'https://github.com/Mario34/typescript-zh-cn',
+    docsBranch: 'dev',
+    docsDir: 'zh',
+    editLinkPattern: ':repo/edit/:branch/:path',
   },
-
   plugins: [
     [
       '@vuepress/register-components',

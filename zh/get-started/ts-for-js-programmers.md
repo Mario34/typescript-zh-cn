@@ -1,9 +1,4 @@
----
-title: 对于JavaScript开发者的Typescript
-short: TypeScript for JS Programmers
-permalink: /zh/docs/handbook/typescript-in-5-minutes.html
-oneline: Learn how TypeScript extends JavaScript
----
+# 对于JavaScript开发者的Typescript
 
 TypeScript 与 JavaScript 之间有着不同寻常的关系。TypeScript 提供了所有的 JavaScript 特性，并且在这些特性之上还有一个额外的层:TypeScript 的类型系统。
 

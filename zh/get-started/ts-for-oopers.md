@@ -1,9 +1,4 @@
----
-title: 
-short: 对于Java/C#发者的Typescript
-permalink: /zh/docs/handbook/typescript-in-5-minutes-oop.html
-oneline: Learn TypeScript if you have a background in object-oriented languages
----
+#  对于Java/C#发者的Typescript
 
 TypeScript 是习惯于使用其他静态类型语言（例如 C# 和 Java）的程序员的合适选择。
 
