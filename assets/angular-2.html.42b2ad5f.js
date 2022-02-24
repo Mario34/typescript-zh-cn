@@ -1,0 +1,1 @@
+const t={key:"v-4cf6dea5",path:"/tutorials/angular-2.html",title:"Angular 2",lang:"zh-cn",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645675563e3,contributors:[{name:"Mario34",email:"zhl.mario34@outlook.com",commits:1}]},filePathRelative:"tutorials/angular-2.md"};export{t as data};

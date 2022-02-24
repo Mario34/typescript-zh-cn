@@ -1,1 +1,0 @@
-const t={key:"v-383d8660",path:"/project-config/",title:"\u5DE5\u7A0B\u914D\u7F6E",lang:"zh-cn",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645674892e3,contributors:[{name:"Mario34",email:"zhl.mario34@outlook.com",commits:1}]},filePathRelative:"project-config/README.md"};export{t as data};

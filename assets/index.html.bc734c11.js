@@ -1,1 +1,0 @@
-const e={key:"v-782caffd",path:"/breaking-changes/",title:"Breaking Changes",lang:"zh-cn",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645674892e3,contributors:[{name:"Mario34",email:"zhl.mario34@outlook.com",commits:1}]},filePathRelative:"breaking-changes/README.md"};export{e as data};

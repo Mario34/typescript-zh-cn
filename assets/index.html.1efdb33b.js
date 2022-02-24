@@ -1,0 +1,1 @@
+const e={key:"v-8daa1a0e",path:"/",title:"TypeScript\u4E2D\u6587\u6587\u6863",lang:"zh-cn",frontmatter:{sidebar:!1},excerpt:"",headers:[],git:{updatedTime:1645675563e3,contributors:[{name:"Mario34",email:"zhl.mario34@outlook.com",commits:1}]},filePathRelative:"index.md"};export{e as data};
